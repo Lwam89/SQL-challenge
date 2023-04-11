@@ -2,13 +2,6 @@
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/vGWWYZ
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
--- DROP TABLE dept_manager;
--- DROP TABLE dept_emp;
--- DROP TABLE salaries;
--- DROP TABLE departments;
--- DROP TABLE employees;
--- DROP TABLE titles;
-
 CREATE TABLE "employees" (
     "emp_no" INT   NOT NULL,
     "emp_title_id" VARCHAR   NOT NULL,
